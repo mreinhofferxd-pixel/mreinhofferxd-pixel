@@ -45,4 +45,24 @@ perform before you publish. Work in progress.
 
 ---
 
+## 🔒 Private work
+
+### Symphony
+
+Jira-native orchestration for autonomous Codex workers. Watches Jira, claims
+eligible tickets, gives each run an isolated workspace, drives Codex through the
+implementation loop, opens the PR/MR, posts the outcome back to the ticket, and
+exposes the whole lifecycle on an operator dashboard.
+
+![python](https://img.shields.io/badge/python-3.11+-blue)
+![jira](https://img.shields.io/badge/Jira-native-0052CC?logo=jira&logoColor=white)
+![vcs](https://img.shields.io/badge/GitLab%20%7C%20GitHub%20%7C%20Bitbucket-supported-green)
+![status](https://img.shields.io/badge/code-private-lightgrey)
+
+Multi-repo fan-out · retry & rework · CI feedback · Prometheus metrics ·
+structured logs. Also nocturne's first external test subject — a loop worked
+Symphony's backlog overnight.
+
+---
+
 *"In order to fall asleep, you must first pretend to be asleep."*
