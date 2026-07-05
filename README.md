@@ -13,8 +13,8 @@ run out. nocturne is the outer loop: each task gets a fresh `claude -p`
 session, the harness holds the state, and nothing merges until the gate runs
 green.
 
-```text
-copy .claude/skills/nocturne into your repo  →  run /nocturne  →  say GO
+```bash
+curl -fsSL https://raw.githubusercontent.com/mreinhofferxd-pixel/nocturne/master/install.sh | bash
 ```
 
 [![Star nocturne](https://img.shields.io/github/stars/mreinhofferxd-pixel/nocturne?style=social)](https://github.com/mreinhofferxd-pixel/nocturne)
