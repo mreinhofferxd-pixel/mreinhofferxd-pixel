@@ -12,7 +12,7 @@ workflows, and polished technical products in regulated environments.
 
 Autonomous dev loops for Claude Code. Hand it a repo and a checkbox backlog; it
 authors a tailored harness and launches a headless `claude -p` while-loop that
-implements, verifies, and commits every task — while you sleep.
+implements, verifies, and commits every task while you sleep.
 
 *a task exists in a done/not-done superposition until the harness observes it.*
 
