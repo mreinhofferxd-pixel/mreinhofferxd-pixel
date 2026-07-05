@@ -4,13 +4,14 @@
 
 ## 🌙 [nocturne](https://github.com/mreinhofferxd-pixel/nocturne)
 
-**Autonomous dev loops for Claude Code — implement, verify, commit, while you sleep.**
+**Autonomous dev loops for Claude Code: implement, verify, commit, while you sleep.**
 
 *You sleep. The backlog doesn't.*
 
-One session can't work a backlog — the context fills long before the tickets
-run out. nocturne is the outer loop: fresh `claude -p` session per task, state
-held in the harness, nothing lands without the gate green.
+One session can't work a backlog. The context fills long before the tickets
+run out. nocturne is the outer loop: each task gets a fresh `claude -p`
+session, the harness holds the state, and nothing merges until the gate runs
+green.
 
 ```text
 copy .claude/skills/nocturne into your repo  →  run /nocturne  →  say GO
@@ -35,7 +36,7 @@ Python. Agent infrastructure, RL environments, privacy-first AI tooling.
 
 ## Projects
 
-### [nocturne](https://github.com/mreinhofferxd-pixel/nocturne) — a task exists in a done/not-done superposition until the harness observes it
+### [nocturne](https://github.com/mreinhofferxd-pixel/nocturne) - a task exists in a done/not-done superposition until the harness observes it
 
 Claude Code skill that turns a repo plus a checkbox backlog into a
 self-verifying autonomous dev loop: a design-layer Claude reads the repo,
@@ -46,7 +47,7 @@ verifies, and commits every task on a dedicated branch.
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?logo=anthropic&logoColor=white)
 ![MIT](https://img.shields.io/badge/license-MIT-green)
 
-### [MedShield AI](https://github.com/mreinhofferxd-pixel/medshield-ai) — patient data stays home
+### [MedShield AI](https://github.com/mreinhofferxd-pixel/medshield-ai) - patient data stays home
 
 GDPR/BDSG-compliant anonymization proxy for German healthcare. Strips patient
 PII locally before any LLM call.
@@ -54,16 +55,16 @@ PII locally before any LLM call.
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![GDPR](https://img.shields.io/badge/GDPR%2FBDSG-compliant-0A7C83)
 
-### [Ghostline](https://github.com/mreinhofferxd-pixel/Ghostline2DRacerRL) — man vs machine: man leads, for now
+### [Ghostline](https://github.com/mreinhofferxd-pixel/Ghostline2DRacerRL) - man vs machine: man leads, for now
 
 Deterministic 2D racing sim and RL environment. A trained PPO agent laps in
-3.965s — after many hours I took it back with a 3.959s.
+3.965s. After many hours I took it back with a 3.959s.
 [Play it →](https://michaelreinhoffer.lol/work/ghostline)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![RL](https://img.shields.io/badge/RL-PPO-8A2BE2)
 
-### [PostPulse](https://github.com/mreinhofferxd-pixel/PostPulse) — know how it lands before you post
+### [PostPulse](https://github.com/mreinhofferxd-pixel/PostPulse) - know how it lands before you post
 
 Social media post performance prediction engine. Estimates how a post will
 perform before you publish. Work in progress.
@@ -72,12 +73,12 @@ perform before you publish. Work in progress.
 
 ## Private
 
-**Symphony** — Jira-native orchestration for autonomous Codex workers. Watches
+**Symphony** - Jira-native orchestration for autonomous Codex workers. Watches
 Jira, claims eligible tickets, isolates each run in its own workspace, drives
 Codex through the implementation loop, opens the PR/MR, posts the outcome back
 to the ticket, and shows the whole lifecycle on an operator dashboard.
 Multi-repo fan-out, retry & rework, CI feedback, Prometheus metrics. Also
-nocturne's first external test subject — a loop worked Symphony's backlog
+nocturne's first external test subject: a loop worked Symphony's backlog
 overnight.
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?logo=jira&logoColor=white)
@@ -86,8 +87,8 @@ overnight.
 
 ## Work
 
-Cloud Architect — cloud-native platforms and applied AI for regulated
-environments. Details on [LinkedIn](https://www.linkedin.com/in/michael-reinhoffer-33b505196/).
+Cloud Architect focused on cloud-native platforms and applied AI for
+regulated environments. Details on [LinkedIn](https://www.linkedin.com/in/michael-reinhoffer-33b505196/).
 
 ## Tech
 
