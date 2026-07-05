@@ -45,7 +45,7 @@ perform before you publish. Work in progress.
 
 ---
 
-## 🔒 Private work
+## Private
 
 ### Symphony
 
