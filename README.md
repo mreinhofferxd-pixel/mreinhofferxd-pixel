@@ -91,6 +91,9 @@ environments. Details on [LinkedIn](https://www.linkedin.com/in/michael-reinhoff
 ## Tech
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?logo=googlecloud&logoColor=white)
+![Open Telekom Cloud](https://img.shields.io/badge/Open_Telekom_Cloud-E20074?logo=deutschetelekom&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?logo=anthropic&logoColor=white)
 ![Codex CLI](https://img.shields.io/badge/Codex_CLI-111827?logo=openai&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
