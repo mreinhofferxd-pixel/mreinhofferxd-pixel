@@ -8,8 +8,9 @@
 
 *You sleep. The backlog doesn't.*
 
-Done means the quality gate ran green AND a real commit landed AND the worktree
-is clean — a self-report is never trusted. 323 tests pin the harness.
+One session can't work a backlog — the context fills long before the tickets
+run out. nocturne is the outer loop: fresh `claude -p` session per task, state
+held in the harness, nothing lands without the gate green.
 
 ```text
 copy .claude/skills/nocturne into your repo  →  run /nocturne  →  say GO
@@ -17,7 +18,7 @@ copy .claude/skills/nocturne into your repo  →  run /nocturne  →  say GO
 
 [![Star nocturne](https://img.shields.io/github/stars/mreinhofferxd-pixel/nocturne?style=social)](https://github.com/mreinhofferxd-pixel/nocturne)
 
-⭐ [Star it →](https://github.com/mreinhofferxd-pixel/nocturne) · trust-but-verify · anti-gaming diff guard · budget caps · detached overnight runs · MIT
+⭐ [Star it →](https://github.com/mreinhofferxd-pixel/nocturne) · trust-but-verify · anti-gaming diff guard · budget caps · detached overnight runs · 323 tests · MIT
 
 </div>
 
