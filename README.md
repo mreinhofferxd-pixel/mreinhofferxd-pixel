@@ -30,7 +30,7 @@ copy .claude/skills/nocturne into your repo  →  run /nocturne  →  say GO
 Cloud Architect × Applied AI Engineer building cloud-native AI systems, agentic
 workflows, and polished technical products in regulated environments.
 
-Python. Agent infrastructure, RL environments, privacy-first AI tooling.
+Terraform. Python. Agent infrastructure, RL environments, privacy-first AI tooling.
 
 [michaelreinhoffer.lol](https://michaelreinhoffer.lol) · [LinkedIn](https://www.linkedin.com/in/michael-reinhoffer-33b505196/)
 
