@@ -58,7 +58,7 @@ PII locally before any LLM call.
 ### [Ghostline](https://github.com/mreinhofferxd-pixel/Ghostline2DRacerRL) - man vs machine: machine leads, for now :)
 
 Deterministic 2D racing sim and RL environment. A trained PPO agent laps in
-3.965s. After many hours I took it back with a 3.959s. Then it beat be with a 3.949 again.
+3.965s. After many hours I took it back with a 3.959s. Then it beat me with a 3.949 again.
 [Play it →](https://michaelreinhoffer.lol/work/ghostline)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
