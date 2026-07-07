@@ -77,7 +77,7 @@ perform before you publish. Work in progress.
 Jira, claims eligible tickets, isolates each run in its own workspace, drives
 Codex through the implementation loop, opens the PR/MR, posts the outcome back
 to the ticket, and shows the whole lifecycle on an operator dashboard.
-Multi-repo fan-out, retry & rework, CI feedback, Prometheus metrics. Also
+Multi-repo fan-out, retry & rework, CI feedback. Also
 nocturne's first external test subject: a loop worked Symphony's backlog
 overnight.
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
