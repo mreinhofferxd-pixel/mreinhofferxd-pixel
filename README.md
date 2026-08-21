@@ -57,12 +57,6 @@ A social post performance prediction system with a FastAPI backend, React app,
 XGBoost and LightGBM scoring, per-second TCN attention curves, CLIP attribution,
 and counterfactual explanations.
 
-### [MedShield AI](https://github.com/mreinhofferxd-pixel/medshield-ai) · archived
-
-A privacy engineering prototype for German healthcare. It combines local regex
-and NER detection, reversible encrypted tokens, optional local LLM review, and
-multiple model backends.
-
 ## Private builds
 
 **OpenSwing** · work in progress. Currently private, with more to share once the
