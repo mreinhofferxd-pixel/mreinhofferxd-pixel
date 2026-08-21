@@ -51,12 +51,6 @@ A deterministic 2D time-trial racer and Gymnasium-style RL environment with
 drift physics, boost pads, replays, live ghost delta, and PPO training. The
 current agent laps the reference track in 3.948 seconds.
 
-### [PostPulse](https://github.com/mreinhofferxd-pixel/PostPulse) · work in progress
-
-A social post performance prediction system with a FastAPI backend, React app,
-XGBoost and LightGBM scoring, per-second TCN attention curves, CLIP attribution,
-and counterfactual explanations.
-
 ## Private builds
 
 **OpenSwing** · work in progress. Currently private, with more to share once the
