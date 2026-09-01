@@ -1,12 +1,16 @@
+<div align="center">
+
 # Michael Reinhoffer
 
-Cloud Architect and Applied AI Engineer.
+**Cloud Architect × Applied AI Engineer**
+
+Cloud architecture, autonomous coding systems, and applied AI in regulated environments.
 
 [Portfolio](https://michaelreinhoffer.lol) · [LinkedIn](https://www.linkedin.com/in/michael-reinhoffer-33b505196/)
 
-I build cloud platforms, developer tooling, and applied machine-learning systems. Most of my work is in Python, TypeScript, and Terraform across Azure, Google Cloud, and Open Telekom Cloud.
+</div>
 
-## Projects
+## Selected projects
 
 ### [nocturne](https://github.com/mreinhofferxd-pixel/nocturne)
 
@@ -22,9 +26,9 @@ A 1.87M-parameter character-level GPT implemented directly with PyTorch tensors,
 
 ## Private work
 
-**Symphony** — Jira-based orchestration for autonomous Codex workers, with isolated workspaces, retry and rework handling, PR/MR handoff, and an operator dashboard.
+**Symphony:** Jira-based orchestration for autonomous Codex workers, with isolated workspaces, retry and rework handling, PR/MR handoff, and an operator dashboard.
 
-**OpenSwing** — a local-first golf swing analyzer with confidence-aware measurements and explicit validity checks.
+**OpenSwing:** A local-first golf swing analyzer with confidence-aware measurements and explicit validity checks.
 
 ## Current focus
 
