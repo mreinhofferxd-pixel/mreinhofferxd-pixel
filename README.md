@@ -1,53 +1,31 @@
-<p align="center">
-  <img src="assets/profile-hero.svg" alt="Michael Reinhoffer — Cloud Architect and Applied AI Engineer" width="100%">
-</p>
+# Michael Reinhoffer
 
-<p align="center">
-  <a href="https://michaelreinhoffer.lol"><strong>Portfolio</strong></a>
-  ·
-  <a href="https://www.linkedin.com/in/michael-reinhoffer-33b505196/">LinkedIn</a>
-</p>
+Cloud Architect and Applied AI Engineer.
 
-I work where cloud platforms, autonomous engineering, and applied machine learning meet. The common thread is verification: explicit boundaries, observable execution, reproducible evidence, and honest failure modes.
+[Portfolio](https://michaelreinhoffer.lol) · [LinkedIn](https://www.linkedin.com/in/michael-reinhoffer-33b505196/)
 
-## Selected systems
+I build cloud platforms, developer tooling, and applied machine-learning systems. Most of my work is in Python, TypeScript, and Terraform across Azure, Google Cloud, and Open Telekom Cloud.
 
-### [nocturne](https://github.com/mreinhofferxd-pixel/nocturne) — autonomous development with an independent definition of done
+## Projects
 
-A repository-specific harness turns a spec or checkbox backlog into isolated Claude Code sessions, one task and one atomic commit at a time. The worker proposes; the harness independently reruns the quality gate, checks the diff, protects the backlog, and rejects attempts that weaken the test suite.
+### [nocturne](https://github.com/mreinhofferxd-pixel/nocturne)
 
-**Proof:** 513 tests · Python 3.10+ · Windows, Linux, and macOS · parallel worktree lanes · resumable runs · opt-in draft PRs · never auto-merges
+An autonomous development harness for Claude Code. It works through a spec or checkbox backlog in isolated sessions, then independently verifies the test gate, commit, diff, protected files, and test count before accepting a task.
 
-### [yeGPT](https://github.com/mreinhofferxd-pixel/yegpt) — a transformer built to expose its own data ceiling
+`513 tests` · `Python 3.10+` · `Windows / Linux / macOS` · `MIT`
 
-A decoder-only, character-level GPT implemented directly with PyTorch tensors, autograd, and optimizers. No transformer helper classes, pretrained weights, or model libraries.
+### [yeGPT](https://github.com/mreinhofferxd-pixel/yegpt)
 
-**Proof:** 1.87M parameters · 0.67MB deduplicated corpus · best validation loss 1.577 · scaling to 10.92M parameters increased memorization without improving generalization
+A 1.87M-parameter character-level GPT implemented directly with PyTorch tensors, autograd, and optimizers. The experiment compares several model sizes on a 0.67MB deduplicated corpus and documents where additional capacity becomes memorization rather than generalization.
 
-### [Ghostline](https://github.com/mreinhofferxd-pixel/Ghostline2DRacerRL) — deterministic racing as an RL laboratory
+`best validation loss 1.577` · `1.87M parameters` · `one RTX 4080` · `MIT`
 
-A 2D time-trial racer, replay system, and Gymnasium-style environment built around deterministic physics and reproducible training runs.
+## Private work
 
-**Proof:** the current policy laps the reference track in 3.948 seconds against a 3.959-second human benchmark
+**Symphony** — Jira-based orchestration for autonomous Codex workers, with isolated workspaces, retry and rework handling, PR/MR handoff, and an operator dashboard.
 
-## Building privately
+**OpenSwing** — a local-first golf swing analyzer with confidence-aware measurements and explicit validity checks.
 
-**Symphony** is a Jira-native orchestration system for autonomous Codex workers. It claims eligible tickets, isolates execution, handles retry and rework, opens PRs or MRs, and exposes the lifecycle through an operator dashboard.
+## Current focus
 
-**OpenSwing** is a local-first golf swing analyzer. Its measurement pipeline carries confidence and validity alongside every metric, and refuses to report numbers it cannot defend.
-
-## Cloud engineering
-
-I design and automate multi-cloud platforms across Azure, Google Cloud, and Open Telekom Cloud, usually with Terraform and Python. Current work centers on platform automation, agent infrastructure, FinOps, IAM, and reliability under DORA.
-
-## Engineering principles
-
-- Evidence before claims.
-- Guardrails should be executable.
-- Failure modes belong in the interface and the documentation.
-- Automation should preserve a human decision at the point of irreversible change.
-- A smaller honest system is more useful than a larger vague one.
-
-<p align="center">
-  <a href="https://michaelreinhoffer.lol"><strong>See the systems in motion →</strong></a>
-</p>
+Platform automation, autonomous engineering systems, FinOps, IAM, and reliability under DORA.
