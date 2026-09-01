@@ -1,71 +1,53 @@
-<div align="center">
+<p align="center">
+  <img src="assets/profile-hero.svg" alt="Michael Reinhoffer — Cloud Architect and Applied AI Engineer" width="100%">
+</p>
 
-# Michael Reinhoffer
+<p align="center">
+  <a href="https://michaelreinhoffer.lol"><strong>Portfolio</strong></a>
+  ·
+  <a href="https://www.linkedin.com/in/michael-reinhoffer-33b505196/">LinkedIn</a>
+</p>
 
-**Cloud Architect × Applied AI Engineer**
+I work where cloud platforms, autonomous engineering, and applied machine learning meet. The common thread is verification: explicit boundaries, observable execution, reproducible evidence, and honest failure modes.
 
-Cloud architecture, autonomous coding systems, and applied AI in regulated environments.
+## Selected systems
 
-[Portfolio](https://michaelreinhoffer.lol) · [LinkedIn](https://www.linkedin.com/in/michael-reinhoffer-33b505196/)
+### [nocturne](https://github.com/mreinhofferxd-pixel/nocturne) — autonomous development with an independent definition of done
 
-</div>
+A repository-specific harness turns a spec or checkbox backlog into isolated Claude Code sessions, one task and one atomic commit at a time. The worker proposes; the harness independently reruns the quality gate, checks the diff, protects the backlog, and rejects attempts that weaken the test suite.
 
-## Featured
+**Proof:** 513 tests · Python 3.10+ · Windows, Linux, and macOS · parallel worktree lanes · resumable runs · opt-in draft PRs · never auto-merges
 
-### 🌙 [nocturne](https://github.com/mreinhofferxd-pixel/nocturne)
+### [yeGPT](https://github.com/mreinhofferxd-pixel/yegpt) — a transformer built to expose its own data ceiling
 
-**Autonomous development loops for Claude Code.**
+A decoder-only, character-level GPT implemented directly with PyTorch tensors, autograd, and optimizers. No transformer helper classes, pretrained weights, or model libraries.
 
-Nocturne runs a spec or checkbox backlog through fresh Claude Code sessions, one
-task and one atomic commit at a time. A repo-derived quality gate, test-count
-ratchet, anti-gaming diff guard, protected paths, and budget caps decide what
-counts as done. Content-derived task IDs keep history stable when a backlog is
-reordered.
+**Proof:** 1.87M parameters · 0.67MB deduplicated corpus · best validation loss 1.577 · scaling to 10.92M parameters increased memorization without improving generalization
 
-Independent `##` backlog units can run in parallel lanes, each with its own
-worktree, branch, lock, state, and report. Opt-in PR publishing pushes verified
-branches and opens draft PRs per unit or per run. Nocturne never merges
-automatically. Runs can detach, pause through rate limits, and resume from
-harness state.
+### [Ghostline](https://github.com/mreinhofferxd-pixel/Ghostline2DRacerRL) — deterministic racing as an RL laboratory
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/mreinhofferxd-pixel/nocturne/master/install.sh | bash
-```
+A 2D time-trial racer, replay system, and Gymnasium-style environment built around deterministic physics and reproducible training runs.
 
-**513 tests · Python 3.10+ · Windows, Linux, macOS · MIT**
+**Proof:** the current policy laps the reference track in 3.948 seconds against a 3.959-second human benchmark
 
-[![CI](https://github.com/mreinhofferxd-pixel/nocturne/actions/workflows/test.yml/badge.svg)](https://github.com/mreinhofferxd-pixel/nocturne/actions/workflows/test.yml)
-[![Stars](https://img.shields.io/github/stars/mreinhofferxd-pixel/nocturne?style=social)](https://github.com/mreinhofferxd-pixel/nocturne)
+## Building privately
 
-## Selected projects
+**Symphony** is a Jira-native orchestration system for autonomous Codex workers. It claims eligible tickets, isolates execution, handles retry and rework, opens PRs or MRs, and exposes the lifecycle through an operator dashboard.
 
-### [yeGPT](https://github.com/mreinhofferxd-pixel/yegpt)
+**OpenSwing** is a local-first golf swing analyzer. Its measurement pipeline carries confidence and validity alongside every metric, and refuses to report numbers it cannot defend.
 
-A character-level decoder-only transformer built directly with PyTorch. The
-project covers tokenization, causal attention, training, sampling, checkpoints,
-a CLI, released weights, and scale experiments on an RTX 4080.
+## Cloud engineering
 
-### [Ghostline](https://github.com/mreinhofferxd-pixel/Ghostline2DRacerRL)
+I design and automate multi-cloud platforms across Azure, Google Cloud, and Open Telekom Cloud, usually with Terraform and Python. Current work centers on platform automation, agent infrastructure, FinOps, IAM, and reliability under DORA.
 
-A deterministic 2D time-trial racer and Gymnasium-style RL environment with
-drift physics, boost pads, replays, live ghost delta, and PPO training. The
-current agent laps the reference track in 3.948 seconds.
+## Engineering principles
 
-## Private builds
+- Evidence before claims.
+- Guardrails should be executable.
+- Failure modes belong in the interface and the documentation.
+- Automation should preserve a human decision at the point of irreversible change.
+- A smaller honest system is more useful than a larger vague one.
 
-**OpenSwing** · work in progress. Currently private, with more to share once the
-first public build is ready.
-
-**Symphony** · Jira-native orchestration for autonomous Codex workers. It claims
-tickets, isolates runs, handles retry and rework, opens PRs or MRs, and reports
-outcomes through an operator dashboard.
-
-## Focus
-
-Multi-cloud platforms across Azure, Google Cloud, and Open Telekom Cloud,
-usually built with Terraform and Python. Current work centers on platform
-automation, agent infrastructure, FinOps, IAM, and reliability under DORA.
-
----
-
-*"In order to fall asleep, you must first pretend to be asleep."*
+<p align="center">
+  <a href="https://michaelreinhoffer.lol"><strong>See the systems in motion →</strong></a>
+</p>
