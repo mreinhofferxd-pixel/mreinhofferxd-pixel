@@ -10,62 +10,26 @@ Cloud architecture, autonomous coding systems, and applied AI in regulated envir
 
 </div>
 
-## Featured
-
-### 🌙 [nocturne](https://github.com/mreinhofferxd-pixel/nocturne)
-
-**Autonomous development loops for Claude Code.**
-
-Nocturne runs a spec or checkbox backlog through fresh Claude Code sessions, one
-task and one atomic commit at a time. A repo-derived quality gate, test-count
-ratchet, anti-gaming diff guard, protected paths, and budget caps decide what
-counts as done. Content-derived task IDs keep history stable when a backlog is
-reordered.
-
-Independent `##` backlog units can run in parallel lanes, each with its own
-worktree, branch, lock, state, and report. Opt-in PR publishing pushes verified
-branches and opens draft PRs per unit or per run. Nocturne never merges
-automatically. Runs can detach, pause through rate limits, and resume from
-harness state.
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/mreinhofferxd-pixel/nocturne/master/install.sh | bash
-```
-
-**513 tests · Python 3.10+ · Windows, Linux, macOS · MIT**
-
-[![CI](https://github.com/mreinhofferxd-pixel/nocturne/actions/workflows/test.yml/badge.svg)](https://github.com/mreinhofferxd-pixel/nocturne/actions/workflows/test.yml)
-[![Stars](https://img.shields.io/github/stars/mreinhofferxd-pixel/nocturne?style=social)](https://github.com/mreinhofferxd-pixel/nocturne)
-
 ## Selected projects
+
+### [nocturne](https://github.com/mreinhofferxd-pixel/nocturne)
+
+An autonomous development harness for Claude Code. It works through a spec or checkbox backlog in isolated sessions, then independently verifies the test gate, commit, diff, protected files, and test count before accepting a task.
+
+`513 tests` · `Python 3.10+` · `Windows / Linux / macOS` · `MIT`
 
 ### [yeGPT](https://github.com/mreinhofferxd-pixel/yegpt)
 
-A character-level decoder-only transformer built directly with PyTorch. The
-project covers tokenization, causal attention, training, sampling, checkpoints,
-a CLI, released weights, and scale experiments on an RTX 4080.
+A 1.87M-parameter character-level GPT implemented directly with PyTorch tensors, autograd, and optimizers. The experiment compares several model sizes on a 0.67MB deduplicated corpus and documents where additional capacity becomes memorization rather than generalization.
 
-### [Ghostline](https://github.com/mreinhofferxd-pixel/Ghostline2DRacerRL)
+`best validation loss 1.577` · `1.87M parameters` · `one RTX 4080` · `MIT`
 
-A deterministic 2D time-trial racer and Gymnasium-style RL environment with
-drift physics, boost pads, replays, live ghost delta, and PPO training. The
-current agent laps the reference track in 3.948 seconds.
+## Private work
 
-## Private builds
+**Symphony:** Jira-based orchestration for autonomous Codex workers, with isolated workspaces, retry and rework handling, PR/MR handoff, and an operator dashboard.
 
-**OpenSwing** · work in progress. Currently private, with more to share once the
-first public build is ready.
+**OpenSwing:** A local-first golf swing analyzer with confidence-aware measurements and explicit validity checks.
 
-**Symphony** · Jira-native orchestration for autonomous Codex workers. It claims
-tickets, isolates runs, handles retry and rework, opens PRs or MRs, and reports
-outcomes through an operator dashboard.
+## Current focus
 
-## Focus
-
-Multi-cloud platforms across Azure, Google Cloud, and Open Telekom Cloud,
-usually built with Terraform and Python. Current work centers on platform
-automation, agent infrastructure, FinOps, IAM, and reliability under DORA.
-
----
-
-*"In order to fall asleep, you must first pretend to be asleep."*
+Platform automation, autonomous engineering systems, FinOps, IAM, and reliability under DORA.
