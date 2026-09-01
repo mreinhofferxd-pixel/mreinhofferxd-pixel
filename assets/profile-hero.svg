@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Michael Reinhoffer — Cloud Architect and Applied AI Engineer</title>
+  <desc id="desc">A dark technical profile banner with turquoise system lines and an evidence-first engineering statement.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121317"/>
+      <stop offset="1" stop-color="#08080a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="42%" r="48%">
+      <stop offset="0" stop-color="#2ee6d9" stop-opacity=".16"/>
+      <stop offset=".55" stop-color="#2ee6d9" stop-opacity=".035"/>
+      <stop offset="1" stop-color="#2ee6d9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#f5f0e8" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="360" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <rect width="1200" height="360" fill="url(#glow)"/>
+    <path d="M0 300H1200" stroke="#f5f0e8" stroke-opacity=".08"/>
+    <path d="M824 0V360" stroke="#f5f0e8" stroke-opacity=".08"/>
+
+    <g fill="none" stroke="#2ee6d9">
+      <circle cx="987" cy="166" r="112" stroke-opacity=".18"/>
+      <circle cx="987" cy="166" r="78" stroke-opacity=".3"/>
+      <circle cx="987" cy="166" r="42" stroke-opacity=".5"/>
+      <path d="M875 166h224M987 54v224" stroke-opacity=".16"/>
+      <path d="M903 92l168 148M1071 92L903 240" stroke-opacity=".09"/>
+      <path d="M848 292h278" stroke-opacity=".28"/>
+      <path d="M848 292h92" stroke-width="3"/>
+    </g>
+    <circle cx="987" cy="166" r="6" fill="#2ee6d9"/>
+    <circle cx="1099" cy="166" r="3" fill="#7ff2e9"/>
+    <circle cx="987" cy="54" r="3" fill="#7ff2e9"/>
+
+    <g font-family="'Segoe UI', Arial, sans-serif">
+      <text x="64" y="65" fill="#2ee6d9" font-family="Consolas, 'Courier New', monospace" font-size="14" letter-spacing="3">01 / PROFILE SYSTEM</text>
+      <text x="64" y="145" fill="#f5f0e8" font-size="56" font-weight="700" letter-spacing="-1.4">MICHAEL REINHOFFER</text>
+      <text x="66" y="190" fill="#b6afa3" font-size="21" letter-spacing="2.2">CLOUD ARCHITECT × APPLIED AI ENGINEER</text>
+      <text x="66" y="244" fill="#f5f0e8" font-size="18">I build systems that verify their own claims.</text>
+      <text x="66" y="322" fill="#87868f" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing="1.7">CLOUD PLATFORMS  /  AUTONOMOUS ENGINEERING  /  APPLIED ML</text>
+      <text x="849" y="322" fill="#87868f" font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="1.4">HEIDELBERG · DE</text>
+    </g>
+
+    <g fill="#f5f0e8" opacity=".65">
+      <circle cx="1129" cy="44" r="1.5"/>
+      <circle cx="861" cy="46" r="1"/>
+      <circle cx="1144" cy="257" r="1"/>
+      <circle cx="921" cy="274" r="1.2"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="359" rx="23.5" fill="none" stroke="#232329"/>
+</svg>
